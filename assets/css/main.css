@@ -1,5 +1,12 @@
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 h1{
-	color: white;
+	color: #808080;
 	font-size: 500%;
 	margin-left: 70px;
 	margin-right: auto;	
@@ -12,7 +19,6 @@ p{
 	margin-left: 70px;
 	margin-right: auto;	
 }
-
 
 a:link {
     color: white;
