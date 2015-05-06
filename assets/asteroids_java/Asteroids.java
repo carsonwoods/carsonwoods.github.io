@@ -44,6 +44,9 @@ public class Asteroids extends Applet implements Runnable, KeyListener
 	
 	//create a random number generator
 	Random rand = new Random();
+
+	//add a score card
+	double score = 0;
 	
 	public void init()
 	{
@@ -91,6 +94,7 @@ public class Asteroids extends Applet implements Runnable, KeyListener
 		g2d.drawString("Ship: " + Math.round(ship.getX()) + "," + Math.round(ship.getY()), 5, 10);
 		g2d.drawString("Move angle: " + Math.round(ship.getMoveAngle()) + 90, 5, 25);
 		g2d.drawString("Face angle: " + Math.round(ship.getFaceAngle()), 5, 40);
+		g2d.drawString("Score:" + score, 350, 10);
 		
 		//draw the game graphics
 		drawShip();
@@ -287,6 +291,7 @@ public class Asteroids extends Applet implements Runnable, KeyListener
 						{
 							bullet[n].setAlive(false);
 							ast[m].setAlive(false);
+							score = score + 100;
 							continue;
 						}
 					}
@@ -299,6 +304,7 @@ public class Asteroids extends Applet implements Runnable, KeyListener
 					ship.setFaceAngle(0);
 					ship.setVelX(0);
 					ship.setVelY(0);
+					score = score - 25;
 					continue;
 				}
 			}
