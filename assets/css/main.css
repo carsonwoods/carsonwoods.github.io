@@ -1,24 +1,19 @@
 html { 
-  background: url(../images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-color: #696969;
   font-family: "Shift", Sans-serif;
 }
 h1{
 	color: white;
 	font-size: 500%;
-	margin-left: 70px;
-	margin-right: auto;	
+	text-align: center;	
 	margin-top: 200px;
 }
 
 p{
 	color: white;
 	font-size: 350%;
-	margin-left: 70px;
-	margin-right: auto;	
+	text-align: center;	
 }
 
 a:link {
@@ -30,16 +25,14 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    color: #779ECB;
 }
 
 a:active {
-    color: red;
+    color: #779ECB;
 }
 
 .links {
 	color: white;
-	position: fixed;
-	bottom: 20px;
-	left: center;
+	text-align: center;	
 }
