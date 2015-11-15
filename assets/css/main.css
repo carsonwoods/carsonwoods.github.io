@@ -1,23 +1,24 @@
 html { 
   background-size: cover;
-  background-color: #696969;
   font-family: "Shift", Sans-serif;
+  background-color: black;
+  background-image: url(https://source.unsplash.com/random);
 }
 h1{
-	color: white;
+	color: black;
 	font-size: 500%;
 	text-align: center;	
 	margin-top: 200px;
 }
 
 p{
-	color: white;
+	color: black;
 	font-size: 350%;
 	text-align: center;	
 }
 
 a:link {
-    color: white;
+    color: black;
 }
 
 a:visited {
@@ -33,6 +34,6 @@ a:active {
 }
 
 .links {
-	color: white;
+	color: black;
 	text-align: center;	
 }
