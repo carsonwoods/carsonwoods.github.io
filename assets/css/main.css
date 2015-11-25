@@ -2,18 +2,18 @@ html {
   background-size: cover;
   font-family: "Shift", Sans-serif;
   background-color: black;
-  background-image: url(https://source.unsplash.com/random);
+  background-image: url(https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&s=91083d77b4b3f8aadb65dfbebd7b0f47);
 }
 h1{
 	color: black;
-	font-size: 500%;
+	font-size: 2500%;
 	text-align: center;	
 	margin-top: 200px;
 }
 
-p{
+h2{
 	color: black;
-	font-size: 350%;
+	font-size: 1250%;
 	text-align: center;	
 }
 
@@ -36,4 +36,5 @@ a:active {
 .links {
 	color: black;
 	text-align: center;	
+	font-size: 500%
 }
