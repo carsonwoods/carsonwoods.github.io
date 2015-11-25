@@ -6,14 +6,14 @@ html {
 }
 h1{
 	color: black;
-	font-size: 2500%;
+	font-size: 500%;
 	text-align: center;	
 	margin-top: 200px;
 }
 
 h2{
 	color: black;
-	font-size: 1250%;
+	font-size: 250%;
 	text-align: center;	
 }
 
@@ -36,5 +36,5 @@ a:active {
 .links {
 	color: black;
 	text-align: center;	
-	font-size: 500%
+	font-size: 150%
 }
