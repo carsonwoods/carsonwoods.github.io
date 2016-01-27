@@ -1,4 +1,4 @@
-html { 
+html {
   background-size: cover;
   font-family: "Shift", Sans-serif;
   background-color: black;
@@ -7,14 +7,14 @@ html {
 h1{
 	color: black;
 	font-size: 500%;
-	text-align: center;	
+	text-align: center;
 	margin-top: 200px;
 }
 
 h2{
 	color: black;
 	font-size: 250%;
-	text-align: center;	
+	text-align: center;
 }
 
 a:link {
@@ -22,7 +22,7 @@ a:link {
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -35,6 +35,6 @@ a:active {
 
 .links {
 	color: black;
-	text-align: center;	
+	text-align: center;
 	font-size: 150%
 }
