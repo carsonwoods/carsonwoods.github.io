@@ -1,41 +1,44 @@
 html {
   background-size: cover;
-  font-family: "Shift", Sans-serif;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;;
   background-color: black;
-  background-image: url(https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&s=91083d77b4b3f8aadb65dfbebd7b0f47);
+  /*background-image: url(https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&s=91083d77b4b3f8aadb65dfbebd7b0f47); */
 }
 h1{
-	color: black;
+	color: white;
 	font-size: 500%;
-	text-align: center;
+  text-align: center;
 	margin-top: 200px;
 }
 
-h2{
-	color: black;
-	font-size: 250%;
-	text-align: center;
+#description {
+  color: white;
+  font-size: 225%;
+  margin-right: 75%;
+  margin-left: 25%;
+}
+
+.links {
+	color: white;
+  margin-right: 75%;
+  margin-left: 25%;
+	font-size: 150%
 }
 
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: #779ECB;
+    color: white;
+    text-decoration: underline;
 }
 
 a:active {
-    color: #779ECB;
-}
-
-.links {
-	color: black;
-	text-align: center;
-	font-size: 150%
+    color: white;
 }
