@@ -1,14 +1,27 @@
 html {
   background-size: cover;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;;
+  font-family: Verlag A, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;;
   background-color: black;
-  /*background-image: url(https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&s=91083d77b4b3f8aadb65dfbebd7b0f47); */
 }
 h1{
 	color: white;
 	font-size: 500%;
   text-align: center;
 	margin-top: 200px;
+}
+
+#title {
+  color: white;
+	font-size: 500%;
+  margin-top: 125px;
+  margin-right: 60%;
+  margin-left: auto;
+}
+
+#portfolio {
+  color: white;
+  font-size: 150%;
+  margin-left: 1%;
 }
 
 #description {
