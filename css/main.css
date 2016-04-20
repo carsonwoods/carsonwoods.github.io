@@ -4,15 +4,15 @@ html {
   background-color: black;
 }
 h1{
-	color: white;
-	font-size: 500%;
+  color: white;
+  font-size: 500%;
   text-align: center;
-	margin-top: 200px;
+  margin-top: 200px;
 }
 
 #title {
   color: white;
-	font-size: 500%;
+  font-size: 500%;
   margin-top: 125px;
   margin-right: 60%;
   margin-left: auto;
@@ -32,26 +32,22 @@ h1{
 }
 
 .links {
-	color: white;
+  color: white;
   margin-right: 75%;
   margin-left: 25%;
-	font-size: 150%
+  font-size: 150%
 }
 
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a:visited {
-    color: white;
+  color: white;
 }
 
 a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-a:active {
-    color: white;
+  color: white;
+  text-decoration: underline;
 }
