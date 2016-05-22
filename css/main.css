@@ -6,7 +6,7 @@ html {
 h1{
   color: white;
   font-size: 500%;
-  margin-left:27%;
+  margin-left: 27.85%;
   margin-top: 125px;
 }
 
@@ -16,13 +16,6 @@ h1{
   margin-top: 25px;
   margin-right: 60%;
   margin-left: auto;
-}
-
-#portfolio {
-  color: white;
-  font-size: 125%;
-  margin-top: 0px;
-  margin-left: 1%;
 }
 
 #description {
