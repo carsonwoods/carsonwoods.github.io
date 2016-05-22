@@ -6,7 +6,8 @@ html {
 h1{
   color: white;
   font-size: 500%;
-  text-align: center;
+  margin-right: 60%;
+  margin-left: auto;
   margin-top: 200px;
 }
 
