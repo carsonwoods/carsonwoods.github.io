@@ -3,45 +3,89 @@ html {
   font-family: 'Montserrat', sans-serif;
   background-color: black;
 }
-h1{
-  color: white;
-  font-size: 500%;
-  margin-left: 27.85%;
-  margin-top: 125px;
+@media only screen and (min-width: 801px) {
+  h1{
+    color: white;
+    font-size: 500%;
+    margin-left: 27.85%;
+    margin-top: 125px;
+  }
+
+  #title {
+    color: white;
+    font-size: 500%;
+    margin-top: 25px;
+    margin-right: 60%;
+    margin-left: auto;
+  }
+
+  #description {
+    color: white;
+    font-size: 225%;
+    margin-right: 75%;
+    margin-left: 25%;
+  }
+
+  .links {
+    color: white;
+    margin-right: 75%;
+    margin-left: 25%;
+    font-size: 150%
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
-#title {
-  color: white;
-  font-size: 500%;
-  margin-top: 25px;
-  margin-right: 60%;
-  margin-left: auto;
-}
+@media only screen and (max-width: 800px) {
+  h1{
+    color: white;
+    font-size: 500%;
+    margin-left: 10px;
+    margin-top: 125px;
+  }
 
-#description {
-  color: white;
-  font-size: 225%;
-  margin-right: 75%;
-  margin-left: 25%;
-}
+  #title {
+    color: white;
+    font-size: 500%;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
 
-.links {
-  color: white;
-  margin-right: 75%;
-  margin-left: 25%;
-  font-size: 150%
-}
+  #description {
+    color: white;
+    font-size: 225%;
+    margin-left: 10px;
+  }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
+  .links {
+    color: white;
+    margin-left: 10px;
+    font-size: 150%
+  }
 
-a:visited {
-  color: white;
-}
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
 
-a:hover {
-  color: white;
-  text-decoration: underline;
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }
