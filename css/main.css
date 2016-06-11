@@ -11,14 +11,6 @@ html {
     margin-top: 125px;
   }
 
-  #title {
-    color: white;
-    font-size: 500%;
-    margin-top: 25px;
-    margin-right: 60%;
-    margin-left: auto;
-  }
-
   #description {
     color: white;
     font-size: 225%;
@@ -58,7 +50,7 @@ html {
 
   #description {
     color: white;
-    font-size: 225%;
+    font-size: 200%;
     margin-left: 10px;
   }
 
