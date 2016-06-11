@@ -50,13 +50,13 @@ html {
 
   #description {
     color: white;
-    font-size: 225%;
+    font-size: 200%;
     margin-left: -20px;
   }
 
   .links {
     color: white;
-    margin-left: 10px;
+    margin-left: -20px;
     font-size: 150%
   }
 
