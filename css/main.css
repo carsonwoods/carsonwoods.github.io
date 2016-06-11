@@ -40,7 +40,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width:725px) and (max-width: 800px) {
   #name{
     color: white;
     font-size: 500%;
@@ -51,6 +51,41 @@ html {
   #description {
     color: white;
     font-size: 200%;
+    margin-left: -20px;
+  }
+
+  .links {
+    color: white;
+    margin-left: -20px;
+    font-size: 150%
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  #name{
+    color: white;
+    font-size: 500%;
+    margin-left: 10px;
+    margin-top: 85px;
+  }
+
+  #description {
+    color: white;
+    font-size: 175%;
     margin-left: -20px;
   }
 
