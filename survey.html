@@ -1,0 +1,49 @@
+<DOCTYPE! html>
+<html lang="en">
+  <head>
+    <title>Survery Results</title>
+    <meta http-equiv="refresh" content="30">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Oswald", sans-serif;
+        font-size: 225%;
+      }
+      #contentArea {
+        text-align: center;
+        margin-top: 20%;
+      }
+    </style>
+    <script type='text/javascript'>
+      function swstSurvey(json) {
+
+        var content = "";
+        var len = json.feed.entry.length
+
+        console.log(len);
+
+        var lineA = "Star Wars Questions Correct: " + json.feed.entry[0].gsx$number.$t + " Star Wars Fan Total: "  + json.feed.entry[1].gsx$number.$t + " Percentage Correct: " +  Math.round(json.feed.entry[2].gsx$number.$t) + "%";
+        var lineB = "Star Trek Question Correct: " + json.feed.entry[3].gsx$number.$t + " Star Trek Fan Total: "  + json.feed.entry[4].gsx$number.$t + " Percentage Correct: " +  Math.round(json.feed.entry[5].gsx$number.$t) + "%";
+
+        content += [
+							'<div id="line1" class="info">',
+							lineA,
+							'</div>',
+							'<div id="line2" class="info">',
+							lineB,
+							'</div>',
+						].join('');
+
+        document.getElementById('contentArea').innerHTML = content;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="contentArea"></div>
+
+    <script src="https://spreadsheets.google.com/feeds/list/1ZFd08wA1QGOLPdt-WfDN5jD2NZpAmtOVYlPF4zh6ZN0/ow2hoz9/public/values?alt=json-in-script&callback=swstSurvey" type="text/javascript"></script>
+
+  </body>
+</html>
