@@ -4,7 +4,7 @@ html {
   background-color: black;
 }
 @media only screen and (min-width: 801px) {
-  #name{
+  #name {
     color: white;
     font-size: 500%;
     margin-left: 27.85%;
