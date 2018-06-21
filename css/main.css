@@ -1,38 +1,57 @@
 html {
   background-size: cover;
   font-family: 'News Cycle', 'Overpass', sans-serif;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
-
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
 
 body {
   margin-left: 20%;
-  margin-top: 5%;
 }
 
+/* adjusts most of navbar elements */
+.links-navbar {
+  font-size: 250%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* adjust padding of p elements  within navbar */
+.links-navbar p {
+  margin-bottom: 0px;
+}
+
+/* Styles elements in name ID */
 #name {
   font-size: 500%;
 }
-
-#description {
-  font-size: 300%;
+h1#name {
+  margin-top: 0%;
 }
 
+/* Styles elements in description ID */
+#description {
+  font-size: 200%;
+}
+
+/* Styles elements in class ID */
+#current {
+    margin-top: 7%;
+}
+
+/* Styles elements in class .links */
 .links {
   font-size: 250%;
+}
+
+/* Styles specific functionality and appearance of <a> tags. */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
 }
