@@ -1,24 +1,12 @@
 html {
   background-size: cover;
-  font-family: 'News Cycle', 'Overpass', sans-serif;
   background-color: white;
   color: black;
 }
 
 body {
+  margin-top:2%;
   margin-left: 20%;
-}
-
-/* adjusts most of navbar elements */
-.links-navbar {
-  font-size: 250%;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-/* adjust padding of p elements  within navbar */
-.links-navbar p {
-  margin-bottom: 0px;
 }
 
 /* Styles elements in name ID */
@@ -34,9 +22,12 @@ h1#name {
   font-size: 200%;
 }
 
-/* Styles elements in class ID */
-#current {
-    margin-top: 7%;
+.portfolio {
+  margin-top: 5%;
+}
+
+#section-title {
+  font-size: 350%;
 }
 
 /* Styles elements in class .links */
@@ -54,4 +45,5 @@ a:visited {
 }
 a:hover {
   color: black;
+  text-decoration: underline;
 }
