@@ -41,7 +41,7 @@ For a complete list of animations, see the [animation list](http://daneden.githu
 By default, pagination on the home page will activate after 10 posts. You can change this within `_config.yml`. You can add the pagination to other layouts with:
 
 ```liquid
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     {% include post-content.html %}
   {% endfor %}
 
