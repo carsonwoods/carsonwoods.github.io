@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Carson Woods"
 email: ""
-description: "I'm a computer science researcher and engineer in Chattanooga, TN building scalable HPC software."
+description: "I'm a computer science researcher and engineer in Atlanta, GA building scalable HPC software professionally. On my own time, I'm working on digital ID platforms."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://carsonwoods.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: "carsonwoods289"
@@ -98,4 +98,4 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: "/", text: "Home" }
-  - { url: "/about", text: "About" }
+  #- { url: "/about", text: "About" }
