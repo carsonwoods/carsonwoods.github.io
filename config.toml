@@ -101,5 +101,5 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "RSS"
         name = "RSS"
-        url = "/index.xml"
+        url = "https://carsonwoods.io/posts/index.xml"
 
