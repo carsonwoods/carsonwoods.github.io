@@ -1,7 +1,7 @@
 ---
-title: "Showcase"
-date: "2018-07-18"
-author: "Hello Robot"
+title: "Projects"
+date: "2022-10-29"
+author: "Carson Woods"
 ---
 
 ## Header 2
