@@ -13,7 +13,7 @@ paginate = 5
   themeColor = "gold"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -84,10 +84,22 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "about"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "projects"
-        name = "Projects"
+        name = "projects"
         url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "blog"
+        url = "blog.carsonwoods.io"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "github"
+        url = "https://github.com/carsonwoods/"
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "twitter"
+        url = "https://twitter.com/@carsonwoods289/"
 
