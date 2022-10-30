@@ -1,5 +1,5 @@
-title = 'Carson Woods'
 baseURL = 'https://carsonwoods.io/'
+title = 'Carson Woods'
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -9,8 +9,8 @@ paginate = 5
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  # ["orange", "blue", "red", "green", "pink", "gold"]
+  themeColor = "gold"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
