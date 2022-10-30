@@ -91,10 +91,6 @@ paginate = 5
         name = "projects"
         url = "/projects"
       [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "blog"
-        url = "blog.carsonwoods.io"
-      [[languages.en.menu.main]]
         identifier = "github"
         name = "github"
         url = "https://github.com/carsonwoods/"
@@ -102,4 +98,8 @@ paginate = 5
         identifier = "twitter"
         name = "twitter"
         url = "https://twitter.com/@carsonwoods289/"
+      [[languages.en.menu.main]]
+        identifier = "RSS"
+        name = "RSS"
+        url = "/index.xml"
 
