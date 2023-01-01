@@ -5,7 +5,9 @@
         <span>{{ $.Site.Copyright | safeHTML }}</span>
     {{ else }}
       <div class="copyright">
-        <span>© {{ now.Year }} Carson Woods </span>
+        <span>© 2018-<script>
+            document.write(/\d{4}/.exec(Date())[0]);
+          </script> Carson Woods </span>
     {{ end }}
         <span>:: haunted by daemons&nbsp;</span>
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
