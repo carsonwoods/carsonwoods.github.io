@@ -23,3 +23,8 @@
 
 # Ignore generated site files
 _site/
+
+# Ignore editor files
+.nova/
+*.swp
+*~
