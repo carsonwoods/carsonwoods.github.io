@@ -87,7 +87,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "blog"
-        url = "/posts"
+        url = "https://blog.carsonwoods.io/"
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "projects"
@@ -103,5 +103,5 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "RSS"
         name = "RSS"
-        url = "https://carsonwoods.io/posts/index.xml"
+        url = "https://blog.carsonwoods.io/rss"
 
