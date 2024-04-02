@@ -28,3 +28,5 @@ _site/
 .nova/
 *.swp
 *~
+resources/_gen/assets/css/
+public/
